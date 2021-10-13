@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 import { TopheadingComponent } from './topheading/topheading.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FacilnewsapiservicesService } from './service/facilnewsapiservices.service';
+import { HealthnewsComponent } from './healthnews/healthnews.component';
+import { SportsnewsComponent } from './sportsnews/sportsnews.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopheadingComponent
+    TopheadingComponent,
+    HealthnewsComponent,
+    SportsnewsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,26 @@
-* {
-    background-color: #005596;
-    color: white;
-}
+        * {
+            background-color: #005596;
+            color: white;
+        }
+        
+        .icons {
+            text-align: center;
+        }
+        
+        #emailicon {
+            background-color: white;
+            padding: 5px;
+            border-radius: 30px;
+            margin-left: 10px;
+        }
+        
+        #insticon {
+            background-color: white;
+            padding: 5px;
+            border-radius: 30px;
+        }
+        
+        h2 {
+            text-align: center;
+            font-weight: bold;
+        }
