@@ -4,9 +4,15 @@
     border-radius: 3px;
 }
 
-.footer {
-    text-align: center;
+.btn {
     background-color: #005596;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* .footer {
+    text-align: center;
     width: 100%;
     color: white;
     position: absolute;
@@ -14,4 +20,4 @@
     left: 0;
     right: 0;
     max-width: auto;
-}
+} */

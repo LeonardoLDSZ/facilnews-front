@@ -1,4 +1,4 @@
-import { TopheadingComponent } from './../topheading/topheading.component';
+// import { GeneralnewsComponent } from '../generalnews/generalnews.component';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -10,7 +10,7 @@ export class FacilnewsapiservicesService {
 
   constructor(private _http:HttpClient) { }
 
-  newsApiUrl = "https://newsapi.org/v2/top-headlines?country=br&apiKey=851fa8c3ac3544d382152d6ea735c152";
+  generalApiUrl = "https://newsapi.org/v2/top-headlines?country=br&category=general&apiKey=851fa8c3ac3544d382152d6ea735c152";
   
   //Saúde - API URL
   saudeapiurl = "https://newsapi.org/v2/top-headlines?country=br&category=health&apiKey=851fa8c3ac3544d382152d6ea735c152";
@@ -31,17 +31,17 @@ export class FacilnewsapiservicesService {
   techapiurl = "https://newsapi.org/v2/top-headlines?country=br&category=technology&apiKey=851fa8c3ac3544d382152d6ea735c152";
 
   //Noticias Gerais - API URL
-  generalapiurl = "https://newsapi.org/v2/top-headlines?country=br&category=general&apiKey=851fa8c3ac3544d382152d6ea735c152";
+  // generalapiurl = "https://newsapi.org/v2/top-headlines?country=br&category=general&apiKey=851fa8c3ac3544d382152d6ea735c152";
 
    
 
   
 
 
-  //topHeading()
-  topHeading():Observable<any>
+  //generaNews()
+  generalNews():Observable<any>
   {
-    return this._http.get(this.newsApiUrl);
+    return this._http.get(this.generalApiUrl);
   }
 
   //saudenews()
