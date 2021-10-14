@@ -18,6 +18,25 @@ export class FacilnewsapiservicesService {
   //Esportes - API URL
   sportsapiurl = "https://newsapi.org/v2/top-headlines?country=br&category=sports&apiKey=851fa8c3ac3544d382152d6ea735c152";
 
+  //Ciência - API URL
+  scienceapiurl = "https://newsapi.org/v2/top-headlines?country=br&category=science&apiKey=851fa8c3ac3544d382152d6ea735c152";
+
+  //Entretenimento - API URL
+  entertainmentapiurl = "https://newsapi.org/v2/top-headlines?country=br&category=entertainment&apiKey=851fa8c3ac3544d382152d6ea735c152";
+
+  //Negocios - API URL
+  businessapiurl = "https://newsapi.org/v2/top-headlines?country=br&category=business&apiKey=851fa8c3ac3544d382152d6ea735c152";
+
+  //Tecnologia - API URL
+  techapiurl = "https://newsapi.org/v2/top-headlines?country=br&category=technology&apiKey=851fa8c3ac3544d382152d6ea735c152";
+
+  //Noticias Gerais - API URL
+  generalapiurl = "https://newsapi.org/v2/top-headlines?country=br&category=general&apiKey=851fa8c3ac3544d382152d6ea735c152";
+
+   
+
+  
+
 
   //topHeading()
   topHeading():Observable<any>
@@ -36,5 +55,35 @@ export class FacilnewsapiservicesService {
   {
     return this._http.get(this.sportsapiurl);
   }
+
+   //sciencenews()
+   scienceNews():Observable<any>
+   {
+     return this._http.get(this.scienceapiurl);
+   }
+
+   //entertainmentnews()
+   entertainmentNews():Observable<any>
+   {
+     return this._http.get(this.entertainmentapiurl);
+   }
+
+   //businessnews()
+   businessNews():Observable<any>
+   {
+     return this._http.get(this.businessapiurl);
+   }
+
+    //technews()
+    techNews():Observable<any>
+    {
+      return this._http.get(this.techapiurl);
+    }
+
+    
+     
+
+
+ 
 
 }

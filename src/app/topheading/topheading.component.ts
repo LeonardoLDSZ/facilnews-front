@@ -6,7 +6,9 @@ import { FacilnewsapiservicesService } from '../service/facilnewsapiservices.ser
   selector: 'app-topheading',
   templateUrl: './topheading.component.html',
   styleUrls: ['./topheading.component.css']
+  
 })
+
 export class TopheadingComponent implements OnInit {
 
   constructor(private _services:FacilnewsapiservicesService) { }
