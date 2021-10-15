@@ -1,13 +1,27 @@
 <div class="container-fluid mt-5">
-    <h4><b>Últimas notícias sobre ciência</b></h4>
+    <h4>Últimas notícias sobre <b>CIÊNCIA</b></h4>
     <div class="row">
-        <div *ngFor="let d of sciencenewsDisplay" class="col-lg-3 mt-3 mb-3">
+        <div *ngFor="let d of sciencenewsDisplay" class="col-lg-3 mt-3 mb-3 card-group">
             <div class="box">
-                <img src="{{d.urlToImage}}" width="100%">
-                <h5 class="mt-2 mb-2">{{d.title}}</h5>
-                <a href="{{d.url}}" target="_blank" class="btn btn-dark btn-sm mt-2">Leia mais</a>
-            </div>
-        </div>
+                <div class="box">
+                    <img src="{{d.urlToImage}}" width="100%">
+                    <h5 class="mt-2 mb-2">{{d.title}}</h5>
+                    <div id="leia">
+                        <a href=" {{d.url}} " target="_blank " class="btn">Leia mais</a>
+                        <div class="fb">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:56832/ " target="_blank " id="fbicon ">
+                                <img width="25 " height="25 " src="assets/facebook-logo.png " alt=" ">
+                            </a>
+                        </div>
+                        <div class="whats">
+                            <a href="https://api.whatsapp.com/send?=texthttp://localhost:56832/ " target="_blank " id="wticon ">
+                                <img width="25 " height="25 " src="assets/whatsapp-logo-icone.png " alt=" ">
+                            </a>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+
+        </div>
     </div>
-</div>
