@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FacilnewsapiservicesService } from '../service/facilnewsapiservices.service';
+import { FacilnewsapiservicesService } from '../../service/facilnewsapiservices.service';
 
 
 @Component({

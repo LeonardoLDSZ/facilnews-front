@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -18,18 +18,24 @@
 .box {
     padding: 5px;
     background-color: rgb(248, 248, 248);
-    border-radius: 3px;
+    border-radius: 10px;
     object-fit: fill;
     border-color: #005596;
+    border-style: solid;
 }
 
-.row-box {
+
+/* .row-box {
     padding: 10px;
     background-color: rgb(248, 248, 248);
     border-radius: 3px;
     text-align: justify;
     font-size: 20px;
-}
+    border-style: solid;
+    border-color: #005596;
+    border-radius: 10px;
+    object-fit: fill;
+} */
 
 h5 {
     font-size: 20px;
@@ -62,17 +68,14 @@ h2 {
     background-color: #005596;
     color: white;
     font-weight: bold;
-    position: static;
-    right: 20px;
+    position: relative;
+    padding: 10px;
 }
 
-.fb {
-    float: right;
-}
-
+.fb,
 .whats {
     float: right;
-    align-content: center;
+    padding: 10px
 }
 
 b {

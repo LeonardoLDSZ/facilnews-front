@@ -1,10 +1,10 @@
-import { TechnewsComponent } from './technews/technews.component';
-import { BusinessnewsComponent } from './businessnews/businessnews.component';
-import { EntertainmentnewsComponent } from './entertainmentnews/entertainmentnews.component';
-import { SciencenewsComponent } from './sciencenews/sciencenews.component';
-import { SportsnewsComponent } from './sportsnews/sportsnews.component';
-import { HealthnewsComponent } from './healthnews/healthnews.component';
-import { GeneralnewsComponent } from './generalnews/generalnews.component';
+import { TechnewsComponent } from '../categories/technews/technews.component';
+import { BusinessnewsComponent } from '../categories/businessnews/businessnews.component';
+import { EntertainmentnewsComponent } from '../categories/entertainmentnews/entertainmentnews.component';
+import { SciencenewsComponent } from '../categories/sciencenews/sciencenews.component';
+import { SportsnewsComponent } from '../categories/sportsnews/sportsnews.component';
+import { HealthnewsComponent } from '../categories/healthnews/healthnews.component';
+import { GeneralnewsComponent } from '../categories/generalnews/generalnews.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
