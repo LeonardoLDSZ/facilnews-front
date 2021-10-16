@@ -22,17 +22,13 @@ import { TechnewsComponent } from './technews/technews.component';
     SciencenewsComponent,
     EntertainmentnewsComponent,
     BusinessnewsComponent,
-    TechnewsComponent,
-  
-    
-    
+    TechnewsComponent,  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    // LoadingBarHttpClientModule
-    
+    // LoadingBarHttpClientModule  
     
   ],
   providers: [FacilnewsapiservicesService],

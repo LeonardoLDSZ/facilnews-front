@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #logo {
@@ -14,18 +15,24 @@
     background-color: white;
 }
 
-body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 .box {
-    padding: 10px 10px;
+    padding: 5px;
     background-color: rgb(248, 248, 248);
     border-radius: 3px;
+    object-fit: fill;
+    border-color: #005596;
 }
 
-.box h5 {
-    font-size: 16px;
+.row-box {
+    padding: 10px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 3px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 20px;
 }
 
 .icons {
@@ -55,6 +62,8 @@ h2 {
     background-color: #005596;
     color: white;
     font-weight: bold;
+    position: static;
+    right: 20px;
 }
 
 .fb {
@@ -71,4 +80,14 @@ b {
     color: white;
     border-radius: 3px;
     padding: 10px;
+}
+
+#h4tech,
+#h4science,
+#h4business,
+#h4general,
+#h4sports,
+#h4entertainment,
+#h4health {
+    text-align: center;
 }
