@@ -30,8 +30,35 @@ export class FacilnewsapiservicesService {
   //Tecnologia - API URL
   techapiurl = "https://newsapi.org/v2/top-headlines?country=br&category=technology&apiKey=851fa8c3ac3544d382152d6ea735c152";
 
-  //Noticias Gerais - API URL
-  // generalapiurl = "https://newsapi.org/v2/top-headlines?country=br&category=general&apiKey=851fa8c3ac3544d382152d6ea735c152";
+  //------------------------Noticias Locais - API URL------------------------------
+  //Blog do Jaime
+ localapiurl = "https://newsapi.org/v2/domains=blogdojaime.com.br&apiKey=851fa8c3ac3544d382152d6ea735c152";
+
+  //O municipio Blumenau
+ localomunicipioapiurl = "https://newsapi.org/v2/domains=omunicipioblumenau.com.br&apiKey=851fa8c3ac3544d382152d6ea735c152";
+
+ //Oblumenauense
+ localoblumenauensepiurl = "https://newsapi.org/v2/domains=oblumenauense.com.br&apiKey=851fa8c3ac3544d382152d6ea735c152";
+
+ //Informe Blumenau
+ localinformeblumenaupiurl = "https://newsapi.org/v2/domains=informeblumenau.com&apiKey=851fa8c3ac3544d382152d6ea735c152";
+
+ //Jornal de Blumenau
+ localjornaldeblumenaupiurl = "https://newsapi.org/v2/domains=jornaldeblumenau.com.br&apiKey=851fa8c3ac3544d382152d6ea735c152";
+
+ //NSC TOTAL
+ localnsctotalurl = "https://newsapi.org/v2/domains=nsctotal.com.br/santa&apiKey=851fa8c3ac3544d382152d6ea735c152";
+
+ //NDMAIS
+ localndmaisiurl = "https://newsapi.org/v2/domains=ndmais.com.br/blumenau/&apiKey=851fa8c3ac3544d382152d6ea735c152";
+
+ //Farol Blumenau
+ localfarolblumenauiurl = "https://newsapi.org/v2/domains=farolblumenau.com/amp/&apiKey=851fa8c3ac3544d382152d6ea735c152";
+
+ //Alexandre José
+ localalexandrejoseurl = "https://newsapi.org/v2/domains=alexandrejose.com&apiKey=851fa8c3ac3544d382152d6ea735c152";
+
+ 
 
    
 
@@ -78,6 +105,21 @@ export class FacilnewsapiservicesService {
     techNews():Observable<any>
     {
       return this._http.get(this.techapiurl);
+    }
+
+    //localnews()
+    localNews():Observable<any>
+    {
+      return this._http.get(this.localapiurl);
+      return this._http.get(this.localomunicipioapiurl);
+      return this._http.get(this.localoblumenauensepiurl);
+      return this._http.get(this.localinformeblumenaupiurl);
+      return this._http.get(this.localjornaldeblumenaupiurl);
+      return this._http.get(this.localnsctotalurl);
+      return this._http.get(this.localndmaisiurl);
+      return this._http.get(this.localfarolblumenauiurl);
+      return this._http.get(this.localalexandrejoseurl);
+
     }
 
     

@@ -11,7 +11,7 @@ import { SciencenewsComponent } from '../categories/sciencenews/sciencenews.comp
 import { EntertainmentnewsComponent } from '../categories/entertainmentnews/entertainmentnews.component';
 import { BusinessnewsComponent } from '../categories/businessnews/businessnews.component';
 import { TechnewsComponent } from '../categories/technews/technews.component';
-// import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +28,7 @@ import { TechnewsComponent } from '../categories/technews/technews.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    // LoadingBarHttpClientModule  
+    
     
   ],
   providers: [FacilnewsapiservicesService],
