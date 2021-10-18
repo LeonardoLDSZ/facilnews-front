@@ -43,3 +43,10 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+_cacache
+_logs
+index-v5
+/_cacache/index-v5
+**/_cacache/*/
+**/_cacache/content-v2/*/
+**/_cacache/index-v5/*/*/
