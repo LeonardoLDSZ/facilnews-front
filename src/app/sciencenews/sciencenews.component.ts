@@ -1,4 +1,4 @@
-import { FacilnewsapiservicesService } from '../../service/facilnewsapiservices.service';
+import { FacilnewsapiservicesService } from '../service/facilnewsapiservices.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

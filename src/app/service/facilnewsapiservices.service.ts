@@ -1,4 +1,3 @@
-// import { GeneralnewsComponent } from '../generalnews/generalnews.component';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -30,39 +29,11 @@ export class FacilnewsapiservicesService {
   //Tecnologia - API URL
   techapiurl = "https://newsapi.org/v2/top-headlines?country=br&category=technology&apiKey=851fa8c3ac3544d382152d6ea735c152";
 
-  //------------------------Noticias Locais - API URL------------------------------
-  //Blog do Jaime
- localapiurl = "https://newsapi.org/v2/domains=blogdojaime.com.br&apiKey=851fa8c3ac3544d382152d6ea735c152";
+  //------------------------Noticias Blumenau e Santa Catarina - API URL------------------------------
 
-  //O municipio Blumenau
- localomunicipioapiurl = "https://newsapi.org/v2/domains=omunicipioblumenau.com.br&apiKey=851fa8c3ac3544d382152d6ea735c152";
-
- //Oblumenauense
- localoblumenauensepiurl = "https://newsapi.org/v2/domains=oblumenauense.com.br&apiKey=851fa8c3ac3544d382152d6ea735c152";
-
- //Informe Blumenau
- localinformeblumenaupiurl = "https://newsapi.org/v2/domains=informeblumenau.com&apiKey=851fa8c3ac3544d382152d6ea735c152";
-
- //Jornal de Blumenau
- localjornaldeblumenaupiurl = "https://newsapi.org/v2/domains=jornaldeblumenau.com.br&apiKey=851fa8c3ac3544d382152d6ea735c152";
-
- //NSC TOTAL
- localnsctotalurl = "https://newsapi.org/v2/domains=nsctotal.com.br/santa&apiKey=851fa8c3ac3544d382152d6ea735c152";
-
- //NDMAIS
- localndmaisiurl = "https://newsapi.org/v2/domains=ndmais.com.br/blumenau/&apiKey=851fa8c3ac3544d382152d6ea735c152";
-
- //Farol Blumenau
- localfarolblumenauiurl = "https://newsapi.org/v2/domains=farolblumenau.com/amp/&apiKey=851fa8c3ac3544d382152d6ea735c152";
-
- //Alexandre José
- localalexandrejoseurl = "https://newsapi.org/v2/domains=alexandrejose.com&apiKey=851fa8c3ac3544d382152d6ea735c152";
-
- 
-
-   
-
+  blumenauapiurl = "https://newsapi.org/v2/everything?q=blumenau&from=2021-10-10&sortBy=publishedAt&apiKey=851fa8c3ac3544d382152d6ea735c152";
   
+  santacatarinaapiurl = "https://newsapi.org/v2/everything?q=santa catarina&from=2021-10-10&sortBy=publishedAt&apiKey=851fa8c3ac3544d382152d6ea735c152";
 
 
   //generaNews()
@@ -107,25 +78,16 @@ export class FacilnewsapiservicesService {
       return this._http.get(this.techapiurl);
     }
 
-    //localnews()
-    localNews():Observable<any>
+    //blumenaunews()
+    blumenauNews():Observable<any>
     {
-      return this._http.get(this.localapiurl);
-      return this._http.get(this.localomunicipioapiurl);
-      return this._http.get(this.localoblumenauensepiurl);
-      return this._http.get(this.localinformeblumenaupiurl);
-      return this._http.get(this.localjornaldeblumenaupiurl);
-      return this._http.get(this.localnsctotalurl);
-      return this._http.get(this.localndmaisiurl);
-      return this._http.get(this.localfarolblumenauiurl);
-      return this._http.get(this.localalexandrejoseurl);
-
+      return this._http.get(this.blumenauapiurl);
     }
 
-    
+    //santacatarinanews()
+    santacatarinaNews():Observable<any>
+    {
+      return this._http.get(this.santacatarinaapiurl)
+    }
      
-
-
- 
-
 }
