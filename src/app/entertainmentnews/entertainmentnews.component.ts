@@ -15,7 +15,6 @@ export class EntertainmentnewsComponent implements OnInit {
   ngOnInit(): void {
     this._services.entertainmentNews().subscribe((result)=>{
       this.entertainmentnewsDisplay = result.articles;
-
     });
 
   }

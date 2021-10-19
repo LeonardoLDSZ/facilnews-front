@@ -14,12 +14,23 @@
                             background-color: white;
                         }
                         
-                        .card {
+                        .navbar-nav {
+                            background-color: #005596;
+                            color: white;
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                        
+                        b {
+                            background-color: #005596;
+                            color: white;
+                            border-radius: 3px;
+                            padding: 10px;
+                        }
+                        
+                        .box {
                             padding: 5px;
-                            background-color: rgb(248, 248, 248);
-                            border-radius: 10px;
                             object-fit: fill;
-                            border: solid 4px #005596;
                             text-align: justify;
                         }
                         
@@ -30,8 +41,25 @@
                             border-radius: 10px;
                         }
                         
-                        .icons {
+                        #h4tech,
+                        #h4science,
+                        #h4business,
+                        #h4general,
+                        #h4sports,
+                        #h4entertainment,
+                        #h4health {
                             text-align: center;
+                        }
+                        
+                        #btnleia {
+                            background-color: #005596;
+                            color: white;
+                            font-weight: bold;
+                            position: relative;
+                            text-decoration: none;
+                            border-radius: 10px;
+                            padding-right: 120px;
+                            padding-left: 120px;
                         }
                         
                         #emailicon {
@@ -46,28 +74,15 @@
                             padding: 5px;
                             border-radius: 30px;
                         }
-                        
-                        h2 {
-                            text-align: center;
-                            font-weight: 500;
-                            font-weight: bolder;
-                        }
-                        
-                        #btnleia {
-                            background-color: #005596;
-                            color: white;
-                            font-weight: bold;
-                            position: relative;
-                            text-decoration: none;
-                            border-radius: 10px;
-                            padding-right: 120px;
-                            padding-left: 120px;
-                        }
-                        
-                        #btnleia a:hover {
+                        /* #btnleia a:hover {
                             border: 2px solid #005596;
                             background-color: rgb(248, 248, 248);
                             color: #005596;
+                        } */
+                        
+                        .footer {
+                            background-color: #005596;
+                            color: white;
                         }
                         
                         #fbicon,
@@ -76,19 +91,12 @@
                             padding: 4px;
                         }
                         
-                        b {
-                            background-color: #005596;
-                            color: white;
-                            border-radius: 3px;
-                            padding: 10px;
+                        h2 {
+                            text-align: center;
+                            font-weight: 500;
+                            font-weight: bolder;
                         }
                         
-                        #h4tech,
-                        #h4science,
-                        #h4business,
-                        #h4general,
-                        #h4sports,
-                        #h4entertainment,
-                        #h4health {
+                        .icons {
                             text-align: center;
                         }

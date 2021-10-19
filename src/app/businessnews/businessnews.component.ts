@@ -13,7 +13,7 @@ export class BusinessnewsComponent implements OnInit {
   businessnewsDisplay: any = [];
 
   ngOnInit(): void {
-    this._services.businessNews().subscribe((result)=>{
+    this._services.businessNews().subscribe((result) => {
       this.businessnewsDisplay = result.articles;
     });
   }
