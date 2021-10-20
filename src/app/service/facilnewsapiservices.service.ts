@@ -31,9 +31,9 @@ export class FacilnewsapiservicesService {
 
   //------------------------Noticias Blumenau e Santa Catarina - API URL------------------------------
 
-  blumenauapiurl ="https://newsapi.org/v2/everything?q=blumenau&from=2021-10-10&sortBy=publishedAt&apiKey=0732789e89e74ad2afa85c727ffa6efa";
+  blumenauapiurl ="https://newsapi.org/v2/everything?q=Blumenau&from=2021-10-15&sortBy=publishedAt&apiKey=0732789e89e74ad2afa85c727ffa6efa";
   
-  santacatarinaapiurl ="https://newsapi.org/v2/everything?q=santa catarina&from=2021-10-10&sortBy=publishedAt&apiKey=0732789e89e74ad2afa85c727ffa6efa";
+  santacatarinaapiurl ="https://newsapi.org/v2/everything?q=Santa catarina&from=2021-10-15&sortBy=publishedAt&apiKey=0732789e89e74ad2afa85c727ffa6efa";
 
 
   //generaNews()
