@@ -8,11 +8,11 @@
                     <h4 class="mt-2 mb-2">{{d.title}}</h4>
                     <div id="bottom-news">
                         <a [href]="d.url" target="_blank" class="btn" id="btnleia">Leia mais</a>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:56832/" target="_blank" id="fbicon" style="border-radius: 30px;">
-                            <img width="36" height="36" src="assets/facebook.ico" alt="">
+                        <a [href]="'https://www.facebook.com/sharer/sharer.php?u=' + d.url" target="_blank" id="fbicon" style="border-radius: 30px;">
+                            <img width="36" height="36" src="assets/facebook.ico" alt="Compartilhar via facebook">
                         </a>
-                        <a href="https://api.whatsapp.com/send?=texthttp://localhost:56832/" target="_blank" id="wticon">
-                            <img width="36" height="36" src="assets/whatsapp-logo-icone.png" alt="">
+                        <a [href]="'https://api.whatsapp.com/send?text='+ d.url" target="_blank" id="wticon">
+                            <img width="36" height="36" src="assets/whatsapp-logo-icone.png" alt="Compartilhar via Whatsapp">
                         </a>
                     </div>
                 </div>
