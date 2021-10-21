@@ -9,33 +9,32 @@ export class FacilnewsapiservicesService {
 
   constructor(private _http:HttpClient) { }
 
-  generalApiUrl ="https://newsapi.org/v2/top-headlines?country=br&category=general&apiKey=0732789e89e74ad2afa85c727ffa6efa";
+  generalApiUrl ="https://newsapi.org/v2/top-headlines?country=us&category=general&apiKey=6c1af22fc53548dc839d3897baa61e14"; //amanda
   
   //Saúde - API URL
-  saudeapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=health&apiKey=0732789e89e74ad2afa85c727ffa6efa";
+  saudeapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=health&apiKey=6c1af22fc53548dc839d3897baa61e14"; //ldszplay
 
   //Esportes - API URL
-  sportsapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=sports&apiKey=0732789e89e74ad2afa85c727ffa6efa";
+  sportsapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=sports&apiKey=6c1af22fc53548dc839d3897baa61e14"; //leonardodavidesouza
 
   //Ciência - API URL
-  scienceapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=science&apiKey=0732789e89e74ad2afa85c727ffa6efa";
+  scienceapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=science&apiKey=6c1af22fc53548dc839d3897baa61e14"; //facilnews
 
   //Entretenimento - API URL
-  entertainmentapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=entertainment&apiKey=0732789e89e74ad2afa85c727ffa6efa";
+  entertainmentapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=entertainment&apiKey=6c1af22fc53548dc839d3897baa61e14"; //jud
 
   //Negocios - API URL
-  businessapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=business&apiKey=0732789e89e74ad2afa85c727ffa6efa";
+  businessapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=business&apiKey=6c1af22fc53548dc839d3897baa61e14";
 
   //Tecnologia - API URL
-  techapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=technology&apiKey=0732789e89e74ad2afa85c727ffa6efa";
+  techapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=technology&apiKey=6c1af22fc53548dc839d3897baa61e14";
 
   //------------------------Noticias Blumenau e Santa Catarina - API URL------------------------------
 
-  blumenauapiurl ="https://newsapi.org/v2/everything?q=Blumenau&from=2021-10-15&sortBy=publishedAt&apiKey=0732789e89e74ad2afa85c727ffa6efa";
+  blumenauapiurl ="https://newsapi.org/v2/everything?q=Blumenau&from=2021-10-15&sortBy=publishedAt&apiKey=6c1af22fc53548dc839d3897baa61e14";
   
-  santacatarinaapiurl ="https://newsapi.org/v2/everything?q=Santa catarina&from=2021-10-15&sortBy=publishedAt&apiKey=0732789e89e74ad2afa85c727ffa6efa";
-
-
+  santacatarinaapiurl ="https://newsapi.org/v2/everything?q=Santa catarina&from=2021-10-15&sortBy=publishedAt&apiKey=6c1af22fc53548dc839d3897baa61e14";
+ 
   //generaNews()
   generalNews():Observable<any>
   {
