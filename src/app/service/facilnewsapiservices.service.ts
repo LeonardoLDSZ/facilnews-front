@@ -12,28 +12,30 @@ export class FacilnewsapiservicesService {
   generalApiUrl ="https://newsapi.org/v2/top-headlines?country=br&category=general&apiKey=06c8aa6bd8a4419183f52181862cada6"; 
   
   //Saúde - API URL
-  saudeapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=health&apiKey=06c8aa6bd8a4419183f52181862cada6"; 
+  saudeapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=health&apiKey=851fa8c3ac3544d382152d6ea735c152"; 
 
   //Esportes - API URL
-  sportsapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=sports&apiKey=06c8aa6bd8a4419183f52181862cada6"; 
+  sportsapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=sports&apiKey=851fa8c3ac3544d382152d6ea735c152"; 
 
   //Ciência - API URL
-  scienceapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=science&apiKey=06c8aa6bd8a4419183f52181862cada6"; 
+  scienceapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=science&apiKey=851fa8c3ac3544d382152d6ea735c152"; 
 
   //Entretenimento - API URL
-  entertainmentapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=entertainment&apiKey=06c8aa6bd8a4419183f52181862cada6"; 
+  entertainmentapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=entertainment&apiKey=851fa8c3ac3544d382152d6ea735c152"; 
 
   //Negocios - API URL
-  businessapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=business&apiKey=06c8aa6bd8a4419183f52181862cada6";
+  businessapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=business&apiKey=851fa8c3ac3544d382152d6ea735c152";
+
+  
 
   //Tecnologia - API URL
-  techapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=technology&apiKey=06c8aa6bd8a4419183f52181862cada6";
+  techapiurl ="https://newsapi.org/v2/top-headlines?country=br&category=technology&apiKey=851fa8c3ac3544d382152d6ea735c152";
 
   //------------------------Noticias Blumenau e Santa Catarina - API URL------------------------------
 
-  blumenauapiurl ="https://newsapi.org/v2/everything?q=Blumenau&from=2021-10-15&sortBy=publishedAt&apiKey=06c8aa6bd8a4419183f52181862cada6";
+  blumenauapiurl ="https://newsapi.org/v2/everything?q=Blumenau&from=2021-10-15&sortBy=publishedAt&apiKey=851fa8c3ac3544d382152d6ea735c152";
   
-  santacatarinaapiurl ="https://newsapi.org/v2/everything?q=Santa catarina&from=2021-10-15&sortBy=publishedAt&apiKey=06c8aa6bd8a4419183f52181862cada6";
+  santacatarinaapiurl ="https://newsapi.org/v2/everything?q=Santa Catarina&from=2021-10-15&sortBy=publishedAt&apiKey=851fa8c3ac3544d382152d6ea735c152";
  
   //generaNews()
   generalNews():Observable<any>

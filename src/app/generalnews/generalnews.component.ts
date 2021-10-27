@@ -18,7 +18,6 @@ export class GeneralnewsComponent implements OnInit {
   ngOnInit(): void {
 
     this._services.generalNews().subscribe((result)=>{
-      console.log(result);
       this.generalnewsDisplay = result.articles;
       
     })
