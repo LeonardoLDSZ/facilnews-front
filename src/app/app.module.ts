@@ -13,6 +13,7 @@ import { BusinessnewsComponent } from './businessnews/businessnews.component';
 import { TechnewsComponent } from './technews/technews.component';
 import { BlumenaunewsComponent } from './blumenaunews/blumenaunews.component';
 import { SantacatarinanewsComponent } from './santacatarinanews/santacatarinanews.component';
+import { ComponentNameComponent } from './component-name/component-name.component';
 
 
 
@@ -27,7 +28,8 @@ import { SantacatarinanewsComponent } from './santacatarinanews/santacatarinanew
     BusinessnewsComponent,
     TechnewsComponent,
     BlumenaunewsComponent,
-    SantacatarinanewsComponent,  
+    SantacatarinanewsComponent,
+    ComponentNameComponent,  
   ],
   imports: [
     BrowserModule,
